@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Configuración global */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+div, ul {
+  width: 400px;
+  padding: 20px;
+}
+
+/* Contendor para añadir tarea */
+div {
+  border-radius: 20px 20px 0 0;
+  background-color: darkcyan;
+}
+
+input, button {
+  font-size: large;
+}
+
+div button {
+  color: darkcyan;
+}
+
+
+/* Lista de tareas */
+ul {
+  border-radius: 0 0 20px 20px;
+  background-color: whitesmoke;
+  box-shadow: 0 10px 6px -6px #777;
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  color: darkcyan;
+  padding: 10px;
+  margin: 0;
+  display: grid;
+  grid-gap: 5px;
+}
+
+ul button {
+  color: crimson;
+}
